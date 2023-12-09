@@ -1,0 +1,13 @@
+.colorBox {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: var(--box-color);
+  font-weight: bolder;
+  font-size: 0.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}

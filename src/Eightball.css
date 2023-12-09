@@ -1,0 +1,57 @@
+.eight-ball {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 50px;
+  transition: background-color 0.5s;
+}
+
+.eight-ball p {
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.eight-ball.black {
+  background-color: black;
+}
+
+.eight-ball.green {
+  background-color: green;
+}
+
+.eight-ball.goldenrod {
+  background-color: goldenrod;
+}
+
+.eight-ball.red {
+  background-color: red;
+}
+
+.reset-button {
+  display: block;
+  margin: 20px auto; /* Adds space above and below the button */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #555;
+}
+
+.color-counts {
+  text-align: center;
+  margin-top: 10px;
+}
